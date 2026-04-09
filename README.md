@@ -108,7 +108,7 @@
                 <div class="interactive-card p-8 bg-stone-100 h-full flex flex-col justify-center transition-all duration-300" id="cause-detail-panel">
                     <div class="text-teal-600 text-4xl mb-4" id="cause-icon">🔍</div>
                     <h3 class="text-xl font-bold text-stone-800 mb-3" id="cause-title">Select a category</h3>
-                    <p class="text-stone-600 leading-relaxed" id="cause-desc">Click on a segment in the doughnut chart to the left to explore the deep dive qualitative analysis regarding why these specific failures occur in enterprise operations lacking aviation-grade safety management.</p>
+                    <p class="text-stone-600 leading-relaxed" id="cause-desc">Click on a segment in the doughnut chart to the left to explore the deep dive qualitative analysis regarding why these specific failures occur in enterprise operations lacking aviation grade safety management.</p>
                     <div class="mt-6 p-4 bg-white border-l-4 border-teal-500 rounded text-sm text-stone-700 hidden" id="cause-stat-box">
                         <span class="font-bold block mb-1">Key Insight:</span>
                         <span id="cause-insight"></span>

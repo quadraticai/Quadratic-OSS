@@ -70,7 +70,7 @@
     <header class="bg-stone-900 text-stone-50 py-16 px-6">
         <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-3xl md:text-5xl font-bold mb-4 tracking-tight leading-tight">Bridging the Gap Between <span class="text-teal-400">Drone Operations</span> and <span class="text-amber-400">Aviation Safety</span></h1>
-            <p class="text-lg text-stone-300 mb-8 leading-relaxed">Explore the research data highlighting the critical vulnerabilities in scaling enterprise drone programs, and interact with the metrics driving the need for formal Safety Management Systems (SMS).</p>
+            <p class="text-lg text-stone-300 mb-8 leading-relaxed">Explore the critical vulnerabilities in scaling enterprise drone programs, and interact with the metrics driving the need for formal Safety Management Systems (SMS).</p>
             <div class="inline-flex items-center justify-center space-x-8 border-t border-stone-700 pt-8 mt-4 w-full">
                 <div class="text-center">
                     <div class="text-3xl font-black text-teal-400">78%</div>
@@ -90,7 +90,7 @@
         <section id="panel-overview" class="tab-content active">
             <div class="mb-10">
                 <h2 class="text-2xl font-bold text-stone-800 mb-3">The Root of Program Failures</h2>
-                <p class="text-stone-600 leading-relaxed max-w-3xl">This section breaks down the empirical data gathered from grounded enterprise drone fleets over the past 36 months. Understanding these failure modes is the first step toward operational resilience. Interact with the chart to view specific contextual insights regarding each category of program failure.</p>
+                <p class="text-stone-600 leading-relaxed max-w-3xl">This section identifies vulnerabilities faced by enterprise drone fleets over the past 36 months. Understanding the root causes of failure is the first step toward operational resilience. Interact with the chart to view specific contextual insights regarding each category of program failure.</p>
             </div>
             
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
@@ -126,7 +126,7 @@
                     <select id="maturitySelect" class="bg-white border border-stone-300 text-stone-900 text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block p-2.5 shadow-sm outline-none cursor-pointer">
                         <option value="average">Average Enterprise Program (Status Quo)</option>
                         <option value="novice">Early-Stage / Novice Program</option>
-                        <option value="advanced">Advanced (Post-Audit) Program</option>
+                        <option value="advanced">Advanced (Pre-Audit) Program</option>
                     </select>
                 </div>
 
@@ -165,7 +165,7 @@
                 </div>
                 
                 <div class="mt-8 text-center max-w-2xl mx-auto">
-                    <p class="text-sm text-stone-500 italic">"Without standard aviation practices embedded into the operational foundation, safety incidents and unmitigated risks grow at a disproportionate rate to flight volume."</p>
+                    <p class="text-sm text-stone-500 font-italic">Without a "positive safety culture" embedded into the operational foundation, safety incidents and unmitigated risks grow at a disproportionate rate to flight volume.</p>
                 </div>
             </div>
         </section>
@@ -271,9 +271,9 @@
         });
 
         const causeDataDetails = {
-            0: { title: "Procedural Compliance", icon: "📑", desc: "Failures occurring when pilots deviate from established Standard Operating Procedures (SOPs). Often symptomatic of overly complex, unreadable, or outdated manual sets that don't reflect field reality.", insight: "Simplifying SOPs and instituting digital pre-flight checklists reduced these errors by 40% in post-audit programs." },
-            1: { title: "Inadequate Training", icon: "👨‍✈️", desc: "Accidents caused by pilots lacking specific training for complex scenarios (e.g., strong magnetic interference near structures, complex BVLOS transitions). Part 107 certification does not equate to mission readiness.", insight: "Programs lacking scenario-specific simulator training experience 3x higher hardware attrition rates." },
-            2: { title: "Hardware/Software", icon: "⚙️", desc: "System failures, firmware glitches, or component degradation. While heavily scrutinized, they represent a minority of total failures compared to human factors.", insight: "Implementing strict, standard-aviation proactive maintenance schedules catches 85% of hardware issues before flight." },
+            0: { title: "Procedural Compliance", icon: "📑", desc: "Failures occurring when pilots deviate from established Standard Operating Procedures (SOPs). Often symptomatic of overly complex, unreadable, or outdated manual sets that don't reflect field reality.", insight: "Simplifying SOPs and instituting universal pre-flight checklists reduced these errors by 40% in post-audit programs." },
+            1: { title: "Inadequate Training", icon: "👨‍✈️", desc: "Accidents caused by pilots lacking specific training for complex scenarios (e.g., effects of strong magnetic interference, highly-automated flight modes, system failsafes). Part 107 certification does not equate to mission readiness.", insight: "Programs lacking scenario based training experience 3x higher hardware attrition rates." },
+            2: { title: "Hardware/Software", icon: "⚙️", desc: "System failures, firmware glitches, or component degradation. While heavily scrutinized, they represent a minority of total failures compared to human factors.", insight: "Implementing proactive maintenance schedules catches 85% of hardware issues before flight." },
             3: { title: "Environmental Factors", icon: "🌩️", desc: "Loss of assets due to unpredicted micro-weather events, sudden wind shear, or bird strikes. Often exacerbated by poor pre-flight weather risk assessment.", insight: "Adopting formal aviation meteorological briefings (beyond basic apps) mitigates severe environmental losses." }
         };
 
@@ -349,7 +349,7 @@
                         borderDash: [5, 5]
                     },
                     {
-                        label: 'Your Program Profile',
+                        label: 'Program Maturity Profile',
                         data: maturityProfiles.average.data,
                         backgroundColor: 'rgba(217, 119, 6, 0.3)',
                         borderColor: '#d97706',

@@ -295,7 +295,7 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false,
+                maintainAspectRatio: true,
                 cutout: '70%',
                 plugins: {
                     legend: { position: 'bottom', labels: { font: { family: 'Inter' }, usePointStyle: true, padding: 20, color: '#444' } },

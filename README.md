@@ -220,7 +220,7 @@
 
     <footer class="bg-stone-100 border-t border-stone-200 py-8 text-center text-stone-500 text-sm mt-auto">
         <div class="max-w-7xl mx-auto px-6">
-            <p>&copy; 2026 Raptor Aeronautics Analytics. Data visualizations reflect modeled industry trends, derived from publicly available FAA incident data, HFACS research on unmanned systems and IS-BAO Stage 3 operating standards.</p>
+            <p>&copy; 2026 Raptor Aeronautics LLC. Data visualizations reflect modeled industry trends, derived from publicly available FAA incident data, HFACS research on unmanned systems and IS-BAO Stage 3 operating standards.</p>
         </div>
     </footer>
 

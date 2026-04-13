@@ -295,7 +295,7 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 cutout: '70%',
                 plugins: {
                     legend: { position: 'bottom', labels: { font: { family: 'Inter' }, usePointStyle: true, padding: 20, color: '#444' } },
@@ -364,7 +364,7 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     tooltip: commonTooltipConfig,
                     legend: { position: 'bottom', labels: { font: { family: 'Inter' }, usePointStyle: true, color: '#444' } }

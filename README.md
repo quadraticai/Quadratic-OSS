@@ -327,9 +327,9 @@
                 <div class="flex flex-col md:flex-row justify-between items-center mb-8 p-4 rounded-lg" style="background: rgba(176,204,51,0.06); border: 1px solid rgba(176,204,51,0.2);">
                     <label for="maturitySelect" class="font-semibold mb-2 md:mb-0 mr-4" style="color: var(--white);">Select Program Maturity Level to Model:</label>
                     <select id="maturitySelect" class="text-sm rounded-lg block p-2.5 cursor-pointer">
-                        <option value="average">Average Enterprise Program (Status Quo)</option>
-                        <option value="novice">Early-Stage / Novice Program</option>
-                        <option value="advanced">Advanced (Post Audit) Program</option>
+                        <option value="average">Established Program (Standardized)</option>
+                        <option value="novice">Foundational Program (Initial)</option>
+                        <option value="advanced">Optimized Program (Post Audit) </option>
                     </select>
                 </div>
  
@@ -341,7 +341,7 @@
                     </div>
                     <div class="lg:col-span-2 space-y-4">
                         <h4 class="font-bold border-b pb-2" style="color: var(--white); border-color: rgba(176,204,51,0.2);">Analysis Context</h4>
-                        <p class="text-sm" style="color: var(--titanium);" id="radar-context">The "Average" enterprise program scores reasonably well in basic flight SOPs but demonstrates a critical, systemic failure in establishing proactive Incident Root Cause Analysis loops and preventative maintenance tracking, relying instead on break:fix methodologies.</p>
+                        <p class="text-sm" style="color: var(--titanium);" id="radar-context">The "Established" enterprise program scores reasonably well in basic flight SOPs but demonstrates a critical, systemic failure in establishing proactive Incident Root Cause Analysis loops and preventative maintenance tracking, relying instead on break:fix methodologies.</p>
                         <div class="warning-box rounded p-4 mt-6">
                             <h5 class="font-bold text-sm mb-1 flex items-center gap-2" style="color: var(--electric-green);">
                                 <span class="text-lg">⚠️</span> Critical Vulnerability Identified
@@ -539,17 +539,17 @@
         const maturityProfiles = {
             average: {
                 data: [50, 70, 45, 25, 60],
-                context: "The 'Average' enterprise program scores reasonably well in basic flight SOPs but demonstrates a critical, systemic failure in establishing proactive Incident Root Cause Analysis loops and preventative maintenance tracking, relying instead on break:fix methodologies.",
+                context: "The 'Established' enterprise program scores reasonably well in basic flight SOPs but demonstrates a critical, systemic failure in establishing proactive Incident Root Cause Analysis loops and preventative maintenance tracking, relying instead on break:fix methodologies.",
                 warning: "A gap larger than 40 points in 'Risk Assessment' severely limits BVLOS (Beyond Visual Line of Sight) waiver approvals from the FAA."
             },
             novice: {
                 data: [20, 40, 20, 10, 30],
-                context: "Novice programs heavily rely on hardware capability rather than operational procedure. Training is usually limited to vendor provided basics, and documentation is almost entirely reactive or non existent.",
+                context: "Initial programs heavily rely on hardware capability rather than operational procedure. Training is usually limited to vendor provided basics, and documentation is almost entirely reactive or non existent.",
                 warning: "Operating at this maturity level poses severe liability risks. Insurance providers are beginning to aggressively audit programs in this state prior to payout."
             },
             advanced: {
                 data: [85, 95, 90, 80, 95],
-                context: "Advanced programs have engaged in formal SMS integration. They operate like modern airlines: heavily procedural, utilizing predictive maintenance, continuous training loops, and formal safety reporting cultures.",
+                context: "Optimized programs have engaged in formal SMS integration. They operate like modern airlines: heavily procedural, utilizing predictive maintenance, continuous training loops, and formal safety reporting cultures.",
                 warning: "Even at advanced stages, 'Incident Root Cause Analysis' requires continuous cultural reinforcement to prevent reporting complacency."
             }
         };

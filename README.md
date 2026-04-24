@@ -234,7 +234,7 @@
             <p class="text-lg mb-10 leading-relaxed" style="color: var(--titanium);">
                 Explore the critical vulnerabilities in scaling enterprise drone programs, and interact with the metrics driving the need for formal Safety Management Systems (SMS).
             </p>
-            <a href="https://forms.gle/qrccW5L2aNQsryzf9" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block mb-10">
+            <a href="readiness-check.html" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block mb-10">
                 Initiate Your Program Readiness Check
             </a>
             <div class="inline-flex items-center justify-center space-x-10 border-t hero-divider pt-8 w-full">
@@ -352,11 +352,11 @@
             </div>
         </section>
 
-        <!-- READINESS FRAMEWORK -->
+        <!--  FRAMEWORK -->
         <section id="panel-solution" class="tab-content">
             <div class="mb-10 text-center">
                 <span class="section-label">Phased Integration</span>
-                <h2 class="text-2xl font-bold mb-3" style="color: var(--white);">The Program Readiness Framework</h2>
+                <h2 class="text-2xl font-bold mb-3" style="color: var(--white);">The Program  Framework</h2>
                 <p class="leading-relaxed max-w-3xl mx-auto" style="color: var(--titanium);">
                     To mitigate these compounding risks and close the aviation safety gap, we deploy a structured, four phase engagement. This transforms a drone program from a reactive tool into a proactive, aviation grade operation. Click each phase to reveal the underlying methodology.
                 </p>

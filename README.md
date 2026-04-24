@@ -393,7 +393,7 @@
             </div>
 
             <div class="mt-16 text-center">
-                <a href="https://forms.gle/qrccW5L2aNQsryzf9" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block">
+                <a href="readiness-check.html" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block">
                     Initiate Your Program Readiness Check
                 </a>
             </div>

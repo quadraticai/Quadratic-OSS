@@ -219,7 +219,7 @@
                     <button class="nav-btn active px-1 pt-1 text-sm font-medium transition-colors" style="color: var(--titanium);" data-target="panel-overview">Overview & Context</button>
                     <button class="nav-btn px-1 pt-1 text-sm font-medium transition-colors" style="color: var(--titanium);" data-target="panel-gaps">Interactive Gap Analysis</button>
                     <button class="nav-btn px-1 pt-1 text-sm font-medium transition-colors" style="color: var(--titanium);" data-target="panel-forecast">Risk Forecaster</button>
-                    <button class="nav-btn px-1 pt-1 text-sm font-medium transition-colors" style="color: var(--titanium);" data-target="panel-solution">Readiness Framework</button>
+                    <button class="nav-btn px-1 pt-1 text-sm font-medium transition-colors" style="color: var(--titanium);" data-target="panel-solution">Maturity Framework</button>
                 </div>
             </div>
         </div>
@@ -235,7 +235,7 @@
                 Explore the critical vulnerabilities in scaling enterprise drone programs, and interact with the metrics driving the need for formal Safety Management Systems (SMS).
             </p>
             <a href="readiness-check.html" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block mb-10">
-                Free Benchmark Of Your Program Maturity
+                Benchmark Your Program For Free 
             </a>
             <div class="inline-flex items-center justify-center space-x-10 border-t hero-divider pt-8 w-full">
                 <div class="text-center">
@@ -356,7 +356,7 @@
         <section id="panel-solution" class="tab-content">
             <div class="mb-10 text-center">
                 <span class="section-label">Phased Integration</span>
-                <h2 class="text-2xl font-bold mb-3" style="color: var(--white);">The Program  Framework</h2>
+                <h2 class="text-2xl font-bold mb-3" style="color: var(--white);">Program Maturity Framework</h2>
                 <p class="leading-relaxed max-w-3xl mx-auto" style="color: var(--titanium);">
                     To mitigate these compounding risks and close the aviation safety gap, we deploy a structured, four phase engagement. This transforms a drone program from a reactive safety posture into a proactive, aviation grade operation. Click each phase to reveal the underlying methodology.
                 </p>
@@ -394,7 +394,7 @@
 
             <div class="mt-16 text-center">
                 <a href="readiness-check.html" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block">
-                    Free Benchmark Of Your Program Maturity 
+                    Benchmark Your Program For Free 
                 </a>
             </div>
         </section>

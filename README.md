@@ -235,7 +235,7 @@
                 Explore the critical vulnerabilities in scaling enterprise drone programs, and interact with the metrics driving the need for formal Safety Management Systems (SMS).
             </p>
             <a href="readiness-check.html" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block mb-10">
-                Initiate Your Program Readiness Check
+                Free Benchmark Of Your Program Maturity
             </a>
             <div class="inline-flex items-center justify-center space-x-10 border-t hero-divider pt-8 w-full">
                 <div class="text-center">
@@ -394,7 +394,7 @@
 
             <div class="mt-16 text-center">
                 <a href="readiness-check.html" target="_blank" class="cta-btn py-4 px-10 rounded-full shadow-lg text-sm uppercase tracking-widest inline-block">
-                    Initiate Your Program Readiness Check
+                    Free Benchmark Of Your Program Maturity 
                 </a>
             </div>
         </section>
